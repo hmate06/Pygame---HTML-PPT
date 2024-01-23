@@ -9,8 +9,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Színek")
 
-# hatter_szine = SZIN
-
+# hatter_szine = SZIN --- háttér színezése constanssal
 
 running = True
 while running:
@@ -24,11 +23,10 @@ while running:
             if event.key == pygame.K_r: # "r" billentyű lenyomása - piros lesz a háttér
                 hatter_szine = PIROS
 
-            elif event.key == pygame.K_t: # "t" billentyű lenyomása - piros lesz a háttér
+            elif event.key == pygame.K_t: # "t" billentyű lenyomása - kék lesz a háttér
                 hatter_szine = KEK
 
-
-    # --- háttér színezése const-val
+    # --- háttér színezése constanssal
     screen.fill(SZIN)
     # screen.fill((R, G, B)) --- háttér színezése RGB kóddal
 
