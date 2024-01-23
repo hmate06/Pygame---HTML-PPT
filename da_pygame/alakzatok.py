@@ -1,29 +1,39 @@
 import pygame
 
-B = (0,0,0)
-W = (255,255,255)
+PIROS = (255, 0, 0)
+KEK = (0, 0, 255)
+SZIN = (54, 183, 93)
+FEHER = (255, 255, 255)
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Alapok")
-bgc = B
-# pygame.draw.kor(hova rajzolja, szin, (kozeppont_koordinatai), sugar) --- kor kotelezo parameterei
+
 
 running = True
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-    screen.fill(bgc) # tipp: a hatter szinezese az alakzat rajzolasa elott legyen kulomben takrani fogja
-    pygame.draw.circle(screen, W, (400, 300), 100) # kor rajzolsa
-    pygame.draw.rect(screen, (255, 0, 0), (30, 30, 150, 75)) # 4szog: (hovarajzolja, szin, (pozicio es meret))
-    
-    """
-    egyeb alakzatok:
-    elipszis: ellipse(hova, szin, (pozicio es meret))
-    sokszog: polygon(hova, szin, [(csucsok)(koordinatai)])
-    """
-    
+
+    # A háttér színezése az alakzat rajzolása előtt legyen különben takarni fogja
+    screen.fill(SZIN)
+
+    # kör rajzolása
+    pygame.draw.circle(screen, FEHER, (400, 300), 100)
+                    # (felület, szín, (középpontjának_koordinátái), kör_sugara) - kör kötelező paraméterei
+
+    # négyszögek rajzolása
+    pygame.draw.rect(screen, (255, 0, 0), (30, 30, 150, 75))
+                    # (felület, szín, (pozíciója és mérete)) - négyzet kötelező paraméterei
+
+    # egyéb alakzatok:
+    # - elipszis: ellipse(felület, szín, (pozíciója és mérete))
+    # pygame.draw.ellipse(screen, KEK, (50, 50, 200, 75))
+
+    # - sokszög: polygon(felület, szín, [(csúcsok_koordinátája), (), ()])
+    # pygame.draw.polygon(screen, KEK, [(120, 90), (120,200), (200, 90)])
+
     pygame.display.update()
 
 pygame.quit()
