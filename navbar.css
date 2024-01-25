@@ -8,11 +8,14 @@ ul.navbar li {
     border: 1px, solid, black;  
     min-width: 15vw; 
     background-color: dimgrey;
+    opacity: 0.85;
 }
 
 ul.navbar li a {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    color: greenyellow;
+    color: rgb(100, 210, 0);
     text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 750;
 }
