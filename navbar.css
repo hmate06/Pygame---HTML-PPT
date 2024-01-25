@@ -1,0 +1,18 @@
+ul.navbar {
+    list-style: none;
+    text-align: center; 
+}
+
+ul.navbar li { 
+    display: inline-block;
+    border: 1px, solid, black;  
+    min-width: 15vw; 
+    background-color: dimgrey;
+}
+
+ul.navbar li a {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+    text-decoration: none;
+}
