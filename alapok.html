@@ -22,6 +22,35 @@
         <li><a href="szinek.html">Színek</a></li>
         <li><a href="alakzatok.html">Alakzatok</a></li>
     </ul>
+    <h1>Alapok</h1>
+    
+    <p>Mindenek előtt be kell importálni a pygame modult.</p>
+    <p>import pygame</p>
+    <img src="képek/alapok_képek/Python.PNG" alt="Pygame importálása">
+    
+    <p>Meg kell hívnunk az init függvényt - mindig egy kötelező elem</p>
+    <p>pygame.init()</p>
+    <img src="képek/alapok_képek/inicializálás.PNG" alt="init() függvény hívása">
+    
+    <p>A következő lépésben létrehozzuk az ablakot és meghatározzuk a nagyságát, amelyet egy tuple-ben teszünk meg.</p>
+    <p>tuple: Több érték tárolását teszi lehetővé egy változón belül</p>
+    <p>pygame.display.set_mode((x,y))</p>
+    <img src="képek/alapok_képek/játékablak létrehozása.PNG" alt="játékablak">
+    
+    <p>Módosíthatjuk az ablak címet:</p>
+    <p>pygame.display.set_caption('')<p>
+    <img src="képek/alapok_képek/ablak_cime.PNG" alt="Ablak címének változtatása">
+    <img src="képek/alapok_képek/ablak_cime_fut.PNG" alt="Ablak címe">
+
+    <p>Most pedig megcsináljuk a gameloopot és azt hogy be tudjuk zárni az oldalt.</p>
+    <img src="képek/alapok_képek/gameloop_kilépés.PNG" alt="gameloop">
+
+    <p>Végül pedig meghívjuk a quit() függvény a program leállításának érdekében</p>
+    <p>pygame.quit()</p>
+    <img src="képek/alapok_képek/quit_fuggvany.PNG" alt="quit() függvény hívása">
+
+    
+
 </body>
 
 </html>
