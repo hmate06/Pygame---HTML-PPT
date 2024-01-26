@@ -2,3 +2,24 @@ body {
     background-size: auto;
     background-position-x: center;
 }
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+
+.card {
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+  }
