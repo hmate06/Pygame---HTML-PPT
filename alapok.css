@@ -3,12 +3,12 @@ body {
     background-position-x: center;
 }
 
-a, div{
+div{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(150, 190, 0);
     text-decoration: none;
     background-color: rgba(105, 105, 105, 0.8);
-    border-radius: 3px;
+    border-radius: 10px;
     text-decoration: none;
     margin-top: 5vh;
     margin-left: 5vw;
@@ -17,7 +17,7 @@ a, div{
     
 }
 
-p, h1, img{
+p, h1, a, img{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(100, 210, 0);
     text-decoration: none;
@@ -25,6 +25,7 @@ p, h1, img{
     border-radius: 3px;
     text-decoration: none;
     text-align: center;
-    
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 

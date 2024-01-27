@@ -3,7 +3,7 @@ body {
     background-position-x: center;
 }
 
-p, h2, a, div{
+div{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(100, 210, 0);
     text-decoration: none;
@@ -11,6 +11,17 @@ p, h2, a, div{
     border-radius: 10px;
     text-decoration: none;
     margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+p, h2, a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 210, 0);
+    text-decoration: none;
+    background-color: rgba(105, 105, 105, 0.8);
+    border-radius: 10px;
+    text-decoration: none;
     margin-left: 5vw;
     margin-right: 5vw;
 }
