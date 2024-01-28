@@ -22,6 +22,24 @@
         <li><a href="szinek.html">Színek</a></li>
         <li><a href="alakzatok.html">Alakzatok</a></li>
     </ul>
+    <div>
+    <h1>Színek</h1>
+    <p>Színeket tudunk constansok segítségével RGB kóddal meghatározni, de vannak alap színek is.</p>
+    <p>piros = (255, 0, 0) --- A zárójelbe akár beírhatjuk az alapszíneket is ('yellow') formában</p>
+    <img src="képek/színek_képek/constansok.png" alt="constansok RGB kóddal">
+    <p>Ezen színek felhasználásával ki tudjuk tölteni a játékablakunk. Ezt háttérszínnek szokták használni.</p>
+    <p>screen.fill(SZIN)</p>
+    <img src="képek/színek_képek/screen_fill.png" alt="Ablak kitöltése egy színnel">
+    <p>Végül, ezt a színt meg tudjuk változtatni gomblenyomásra. Ehhez 4 lépés kell:</p>
+    <p>1. Létre kell hoznunk egy változót, amelyet meg tudunk majd változtatni.</p>
+    <img src="képek/színek_képek/hatterszin_valtozo.png" alt="Változó meghatározása">
+    <p>2. Megkeresni azt az eventet, amikor egy billentyűt lenyomsz.</p>
+    <img src="képek/színek_képek/gomb_lenyomása.png" alt="Event keresése és kiválasztása">
+    <p>3. Kiválasztani, hogy melyik gomb lenyomásakor milyen színű legyen a háttér.</p>
+    <img src="képek/színek_képek/gomblere_valtozik.png" alt="Billenytű és szín meghatározása">
+    <p>4. Az 1. pontban létrehozott változót a screen.fill()-be beírni.</p>
+    <img src="képek/színek_képek/utolso_pont.png" alt="Változó screen.fill()-be írva">
+    </div>
 </body>
 
 </html>
