@@ -28,3 +28,7 @@ p, h1, a, img{
     margin-left: 5vw;
     margin-right: 5vw;
 }
+
+img {
+    max-width: 90%;
+}
