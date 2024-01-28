@@ -17,7 +17,7 @@ div{
     
 }
 
-p, h1, a, img{
+p, h2, a, img{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(100, 210, 0);
     text-decoration: none;
@@ -28,5 +28,3 @@ p, h1, a, img{
     margin-left: 5vw;
     margin-right: 5vw;
 }
-
-
