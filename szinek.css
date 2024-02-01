@@ -14,7 +14,7 @@ div{
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: center;
-    
+    margin-bottom: 5vh;
 }
 
 p, h1, a, img{
@@ -27,7 +27,13 @@ p, h1, a, img{
     text-align: center;
     margin-left: 5vw;
     margin-right: 5vw;
+    font-size: 115%;
 }
+
+p{
+    font-size: 115%;
+}
+
 
 img {
     max-width: 90%;
