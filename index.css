@@ -3,7 +3,17 @@ body {
     background-position-x: center;
 }
 
-div {
+#kartyak{
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw; 
+
+}
+
+#szoveg {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(100, 210, 0);
     text-decoration: none;
@@ -12,7 +22,7 @@ div {
     text-decoration: none;
     margin-top: 5vh;
     margin-left: 5vw;
-    margin-right: 5vw;
+    margin-right: 5vw; 
     text-align: center;
 }
 
@@ -27,4 +37,6 @@ p, h2{
     margin-right: 5vw;
 }
 
-
+li {
+    list-style-type: none;
+}
