@@ -1,10 +1,10 @@
-ul.navbar {
+ul.navbarrrr {
     list-style: none;
     text-align: center; 
 }
 
-ul.navbar li { 
-    display: inline-block;
+ul.navbarrrr li { 
+    display: inline-block !important;
     border: 1px, solid, black;  
     min-width: 15vw; 
     background-color: dimgrey;
@@ -12,7 +12,7 @@ ul.navbar li {
     border-radius: 3px;
 }
 
-ul.navbar li a {
+ul.navbarrrr li a {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(100, 210, 0);
