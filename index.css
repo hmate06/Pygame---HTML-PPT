@@ -40,4 +40,5 @@ p, h2{
 
 li {
     font-size: 115%;
+    list-style-type: none;
 }
